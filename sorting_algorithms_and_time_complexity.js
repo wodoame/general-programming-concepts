@@ -115,3 +115,12 @@ function radixSort(arr) {
 function bucketSort(arr, numBuckets) {
   // implementation
 }
+
+// The most efficient sorting algorithm depends on the specific use case and the characteristics of the data being sorted. However, in general, the fastest comparison-based sorting algorithms have an average time complexity of O(n log n).
+
+// Among the comparison-based sorting algorithms, the fastest one is usually considered to be Quick Sort, which has an average time complexity of O(n log n) and a best-case time complexity of O(n). Quick Sort is widely used in practice and is often the default choice for many programming languages, including JavaScript.
+
+// Non-comparison based sorting algorithms can achieve even better time complexity, such as O(n) or O(n log k), but they have more restrictive requirements on the input data and are generally not as versatile as comparison-based sorting algorithms. Additionally, they may require additional memory or preprocessing time.
+
+// Ultimately, the choice of sorting algorithm will depend on the specific use case and the trade-offs between performance, memory usage, and the characteristics of the input data.
+
